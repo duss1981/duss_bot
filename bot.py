@@ -6,7 +6,7 @@ from telebot.types import Message
 
 
 
-TOKEN='bot683788474:AAEAxCJ_44yCLDP6exQkqfvPe68yijAnpys'
+
 bot = telebot.TeleBot(TOKEN)
 
 #@bot.message_handler(func=lambda message: True)
