@@ -1,25 +1,12 @@
 import telebot
-
-import socket
-import threading
-import sys
-
-
 from telebot.types import Message
-from telebot import apihelper
+
 
 
 
 
 
 TOKEN='bot683788474:AAEAxCJ_44yCLDP6exQkqfvPe68yijAnpys'
-#PROXY='socks5://userproxy:password@https://'
-#PROXY='socks5://socks5_user:socks_pass@https://195.14.114.123:4145'
-#PROXY='socks5://47.88.26.87:1080'
-PROXY='46.101.215.222:8118'
-
-apihelper.proxy = {'http':PROXY}
-#apihelper.proxy = {'https':PROXY}
 bot = telebot.TeleBot(TOKEN)
 
 #@bot.message_handler(func=lambda message: True)
